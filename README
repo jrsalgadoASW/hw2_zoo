@@ -1,0 +1,25 @@
+Tabla Zoologico:
+
+IdZoo: identificador numérico del zoologico (primary key)
+Nombre: nombre del zoologico (no nulo, máximo 50 caracteres)
+Ciudad: ciudad donde se encuentra el zoologico (no nulo, máximo 50 caracteres)
+Pais: país donde se encuentra el zoologico (no nulo, máximo 50 caracteres)
+Tamano: tamaño del zoologico (no nulo, valor numérico)
+PresupuestoAnual: presupuesto anual del zoologico (no nulo, valor numérico con dos decimales)
+Tabla Especie:
+
+IdEspecie: identificador numérico de la especie (primary key)
+NombreComun: nombre común de la especie (no nulo, máximo 50 caracteres)
+NombreCientifico: nombre científico de la especie (no nulo, máximo 50 caracteres)
+Familia: nombre de la familia a la que pertenece la especie (no nulo, máximo 50 caracteres)
+NivelConservacion: nivel de conservación de la especie (no nulo, máximo 50 caracteres)
+Tabla Animal:
+
+IdAnimal: identificador numérico del animal (primary key)
+IdZoo: identificador numérico del zoologico al que pertenece (foreign key que referencia a la tabla Zoologico)
+IdEspecie: identificador numérico de la especie a la que pertenece (foreign key que referencia a la tabla Especie)
+Sexo: género del animal (no nulo, máximo 10 caracteres)
+Edad: edad del animal (no nulo, valor numérico)
+PaisOrigen: país de origen del animal (no nulo, máximo 50 caracteres)
+ContinenteOrigen: continente de origen del animal (no nulo, máximo 50 caracteres)
+Cantidad: cantidad de animales del mismo tipo en el zoologico (no nulo, valor numérico)

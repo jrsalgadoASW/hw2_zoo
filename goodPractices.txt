@@ -1,0 +1,11 @@
+Para la creación de datos en SQL:
+
+Usa nombres descriptivos y coherentes para tus tablas, columnas, restricciones, etc. Esto ayudará a que tu código sea más fácil de leer y entender por otros desarrolladores.
+Usa tipos de datos apropiados para cada columna y asegúrate de que sean compatibles con los datos que se van a almacenar en ellas. Por ejemplo, si vas a almacenar fechas, usa el tipo de dato DATE o DATETIME en lugar de VARCHAR.
+Añade restricciones para garantizar la integridad de tus datos. Esto incluye restricciones de clave primaria, clave foránea, restricciones únicas y de comprobación.
+Usa un formato consistente para tus nombres de tablas y columnas. Esto puede incluir el uso de mayúsculas y minúsculas, guiones bajos, etc.
+Documenta tu esquema de base de datos, incluyendo las relaciones entre las tablas y las restricciones.
+Para la creación de scripts:
+
+Usa comentarios para explicar lo que hace cada parte de tu código. Esto ayudará a otros desarrolladores a entender lo que estás haciendo y por qué.
+Usa una sintaxis consistente en todo tu código. Por ejemplo, si usas mayúsculas y minúsculas para los nombres de tablas y columnas, asegúrate de hacerlo en todo el código. 
